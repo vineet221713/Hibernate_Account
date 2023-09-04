@@ -14,8 +14,9 @@ public class CreateAccount {
 		AccountDao dao = new AccountDaoImpl();
 		
 		Account acc1 = new Account();
-		acc1.setName("vineet");
-		acc1.setBalance(880);
+		
+		acc1.setName("juhi");
+		acc1.setBalance(991);
 
 		boolean f = dao.createAccount(acc1);
 		
